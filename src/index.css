@@ -4,19 +4,28 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 .header-block {
-  height: 20vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+#twitter a {
+  text-decoration: none;
+}
+
 .header-block img {
-  height: 5em;
-  width: 5em;
+  height: 6em;
+  width: 3.3em;
   border-radius: 50%;
   margin-bottom: 1em;
+  margin-top: 3em;
 }
 
 .links-block {
@@ -30,7 +39,7 @@
 
 .link {
   width: 50em;
-  height: 3em;
+  height: 4em;
   margin: 1rem;
   filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
   background-color: #eaecf0;
@@ -42,25 +51,41 @@
 .link a {
   text-decoration: none;
   text-underline: none;
+  color: black;
+}
+
+.footer {
+  height: 15vh;
 }
 
 .icons {
   display: flex;
   justify-content: center;
-  height: 20vh;
+  height: 5vh;
   align-items: center;
 }
 
+
 .icon {
-  height: 5em;
-  width: 5em;
+  height: 2em;
+  width: 2em;
+  margin: 1em;
+}
+
+.footmat {
+  width: 100vw;
+  height: 20vh;
+}
+
+button {
+  border: none;
 }
 
 @media (max-width: 1100px) {
   .link {
     width: 40em;
-    height: 3em;
-    margin: 0.5rem;
+    height: 4em;
+    margin: 0.9rem;
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
     background-color: #eaecf0;
     display: flex;
@@ -71,9 +96,9 @@
 
 @media (max-width: 700px) {
   .link {
-    width: 25em;
-    height: 2.5em;
-    margin: 0.5rem;
+    width: 18rem;
+    height: 4rem;
+    margin: 0.8rem;
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
     background-color: #eaecf0;
     display: flex;
@@ -84,9 +109,9 @@
 
 @media (max-width: 400px) {
   .link {
-    width: 15em;
-    height: 2em;
-    margin: 0.5rem;
+    width: 18rem;
+    height: 3.5rem;
+    margin: 0.7rem;
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
     background-color: #eaecf0;
     display: flex;
@@ -95,15 +120,21 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   .link {
-    width: 10em;
-    height: 2em;
-    margin: 0.5rem;
+    width: 18rem;
+    height: 3.5rem;
+    margin: 0.6rem;
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
     background-color: #eaecf0;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 1400px) {
+  .footmat {
+    display: none;
   }
 }
