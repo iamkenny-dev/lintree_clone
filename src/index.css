@@ -18,11 +18,12 @@ body {
 
 #twitter a {
   text-decoration: none;
+  color: black;
 }
 
 .header-block img {
   height: 6em;
-  width: 3.3em;
+  width: 3.7em;
   border-radius: 50%;
   margin-bottom: 1em;
   margin-top: 3em;
