@@ -16,6 +16,12 @@ body {
   align-items: center;
 }
 
+.desktop_icon {
+  position: absolute;
+  right: 45rem;
+  top: 2rem;
+}
+
 #twitter a {
   text-decoration: none;
   color: black;
@@ -82,7 +88,36 @@ button {
   border: none;
 }
 
+@media (max-width: 1700px) {
+  .desktop_icon {
+  position: absolute;
+  right: 38rem;
+  top: 2rem;
+}
+}
+
+@media (max-width: 1500px) {
+  .desktop_icon {
+  position: absolute;
+  right: 30rem;
+  top: 2rem;
+}
+}
+
+@media (max-width: 1300px) {
+  .desktop_icon {
+  position: absolute;
+  right: 22rem;
+  top: 2rem;
+}
+}
+
 @media (max-width: 1100px) {
+  .desktop_icon {
+  position: absolute;
+  right: 18rem;
+  top: 2rem;
+}
   .link {
     width: 40em;
     height: 4em;
@@ -95,7 +130,20 @@ button {
   }
 }
 
+@media (max-width: 900px) {
+  .desktop_icon {
+  position: absolute;
+  right: 14rem;
+  top: 2rem;
+}
+}
+
 @media (max-width: 700px) {
+  .desktop_icon {
+  position: absolute;
+  right: 10rem;
+  top: 2rem;
+}
   .link {
     width: 18rem;
     height: 4rem;
@@ -105,6 +153,17 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .desktop_icon {
+    display: none;
+  }
+  .mobile_icon {
+    position: absolute;
+  right: 5rem;
+  top: 2rem;
   }
 }
 
@@ -119,6 +178,10 @@ button {
     justify-content: center;
     align-items: center;
   }
+}
+
+@media (max-width: 600px) {
+
 }
 
 @media (max-width: 375px) {
