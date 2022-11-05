@@ -30,7 +30,7 @@ const Contact = () => {
 
                         <div className="container--email">
                             <label className='label--email' htmlFor="email">Email</label>
-                            <input id='email' type="text" placeholder='yourname@email.com' name='email' required/>
+                            <input id='email' type="email" placeholder='yourname@email.com' name='email' required/>
                         </div>
 
                         <div className="container--message">
@@ -39,7 +39,7 @@ const Contact = () => {
                         </div>
 
                         <div className="container--checkbox">
-                            <input type="checkbox" name="checkbox" id="checkbox"  />
+                            <input type="checkbox" name="checkbox" id="checkbox"  requiredg/>
                             <label className='label--checkbox' htmlFor="checkbox">You agree to providing your data to (name) who may contact you</label>
                         </div>
 
