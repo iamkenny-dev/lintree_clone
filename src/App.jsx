@@ -1,24 +1,19 @@
 import React from 'react'
-// import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Main from './Main'
-import Header from './Header'
-import Footer from './Footer'
-// import Contact from './Contact'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import Home from './Home'
+import Contact from './Contact'
 
 
 function App() {
 
   return (
     <div className="App">
-      
-      <Header />
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="test" element={<h1>Hello</h1>} />
+      </Routes>
 
-
-          {/* <Route path='contact' element={<Contact />} /> */}
-
-      
     </div>
   )
 }

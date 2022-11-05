@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -14,6 +14,7 @@ const Main = () => {
         <button className='link' id="book__design"><a href="https://books.zuri.team/design-rules" target="_blank">Design Books</a></button>
         
         {/* <button className='link' id="contact"><a href="contact.html"><Link to='/contact'>Contact Me</Link></a></button> */}
+        <button className='link' id="contact"><Link to='/contact' target="_blank" >Contact Me</Link></button>
       </div>
 
     </main>
