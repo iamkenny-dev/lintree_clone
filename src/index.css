@@ -68,6 +68,10 @@ body {
   height: 15vh;
 }
 
+.footer--wrapper {
+  display: none;
+}
+
 .icons {
   display: flex;
   justify-content: center;
@@ -171,6 +175,9 @@ button {
 }
 
 @media (max-width: 400px) {
+  .footer--wrapper {
+  display: none;
+}
   .link {
     width: 18rem;
     height: 3.5rem;
@@ -188,6 +195,9 @@ button {
 }
 
 @media (max-width: 375px) {
+  .footer--wrapper {
+  display: none;
+}
   .links-block {
   padding: 0.5rem 2rem;
   height: 60vh;

@@ -71,7 +71,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-            </footer> 
+            </footer>
 
         </div>
         )
