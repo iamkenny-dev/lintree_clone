@@ -39,7 +39,7 @@ const Contact = () => {
                         </div>
 
                         <div className="container--checkbox">
-                            <input type="checkbox" name="checkbox" id="checkbox"  requiredg/>
+                            <input type="checkbox" name="checkbox" id="checkbox"  required/>
                             <label className='label--checkbox' htmlFor="checkbox">You agree to providing your data to (name) who may contact you</label>
                         </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            
+
 
 
             <footer className='footer--wrapper'>
