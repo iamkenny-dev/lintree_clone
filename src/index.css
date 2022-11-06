@@ -17,7 +17,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
+
+main {
+  margin-top: 50px;
+}
+
 
 .desktop_icon {
   position: absolute;
@@ -46,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 .link {
   width: 50em;
@@ -84,6 +91,10 @@ body {
   height: 2em;
   width: 2em;
   margin: 1em;
+}
+
+.mobile_icon {
+  display: none;
 }
 
 .footmat {
@@ -168,6 +179,7 @@ button {
     display: none;
   }
   .mobile_icon {
+    display: block;
     position: absolute;
   right: 5rem;
   top: 2rem;
