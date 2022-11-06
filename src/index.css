@@ -208,9 +208,13 @@ button {
 
 @media (max-width: 375px) {
 
+  main {
+  margin-top: 70px;
+}
+
   .links-block {
   padding: 0.5rem 2rem;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
