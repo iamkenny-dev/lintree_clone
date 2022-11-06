@@ -746,7 +746,7 @@ height: 196px;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin-top: 60px;
+  margin-top: 90px;
   background: #FFFFFF;
   padding-bottom: 0;
 }
@@ -972,10 +972,11 @@ margin-bottom: 2px;
 .footer--container {
   display: flex;
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 50px;
   width: 80vw;
-  height: 0rem;
+  height: 10rem;
   border-top: 1px solid #EAECF0;
+  
  
 }
 
