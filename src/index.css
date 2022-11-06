@@ -753,7 +753,7 @@ height: 196px;
 
 .contact--container > div {
   height: 80vh;
-  width: 90vw;
+  width: 95vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -777,6 +777,7 @@ height: 196px;
 
 .contact--head p {
   display: flex;
+  font-size: 15px;
   flex-wrap: wrap;
   width: 80vw;
   }
