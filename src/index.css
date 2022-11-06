@@ -12,7 +12,7 @@ body {
 }
 
 .header-block {
-  height: 15vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -207,9 +207,7 @@ button {
 }
 
 @media (max-width: 375px) {
-  .footer--wrapper {
-  display: none;
-}
+
   .links-block {
   padding: 0.5rem 2rem;
   height: 60vh;
