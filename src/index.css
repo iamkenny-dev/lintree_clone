@@ -8,8 +8,8 @@
 
 body {
   height: 100vh;
-  overflow-x: hidden;
 }
+
 
 .header-block {
   height: 10vh;
@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 
@@ -72,7 +72,7 @@ main {
 }
 
 .footer {
-  height: 15vh;
+  height: 10vh;
 }
 
 .footer--wrapper {
@@ -979,22 +979,20 @@ margin-bottom: 2px;
 .footer--wrapper {
   display: flex;
   flex-direction: column;
-
+  justify-content: start;
   bottom: 0;
   background: #FFFFFF;
 
 
-  align-items: center;
   margin-top: 100px;
 
-  position: absolute;
   width: 320px;
   height: 0px;
 }
 
 .footer--wrapper > div {
   display: flex;
-  align-items: flex-start;
+  justify-content: start;
   padding: 0px 0rem;
   gap: 0rem;
   width: 18rem;
@@ -1004,6 +1002,9 @@ margin-bottom: 2px;
 .footer--container {
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 25px;
   margin-top: 50px;
   width: 80vw;
   height: 10rem;
@@ -1025,6 +1026,7 @@ margin-bottom: 2px;
 .text > img {
   margin-top: -10px;
   color: #667085;
+  margin-left: 200px;
 }
 
 .logo > img {
